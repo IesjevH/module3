@@ -8,6 +8,7 @@ img {
 
 .slideshow-container {
   max-width: 500px;
+  height: 550px;
   position: relative;
   margin: auto;
 }
@@ -85,11 +86,26 @@ img {
 }
 
 #homicide {
-  height: 500px;
+  height: 460px;
   width: 70%;
 }
 
 #inmyhead {
-  height: 500px;
+  height: 460px;
+  width: 70%;
+}
+
+#japan {
+  height: 460px;
+  width: 70%;
+}
+
+#relocate {
+  height: 460px;
+  width: 70%;
+}
+
+#worthit {
+  height: 460px;
   width: 70%;
 }
