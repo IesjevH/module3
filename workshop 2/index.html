@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>tv</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <div class="tv">
         <div id="beeld"></div>
@@ -21,15 +23,53 @@
         <a id="knopje" onclick="myFunction()"></a>
     </div>
 
+    <div id="knop1">
+        <a id="knopje1" onclick="myFunction1()"></a>
+    </div>
+
+    <div id="knop2">
+        <a id="knopje2" onclick="myFunction2()"></a>
+    </div>
+
+    <div id="knop3">
+        <a id="knopje3" onclick="myFunction3()"></a>
+    </div>
+
+
     <script>
         function myFunction() {
-        var video = document.getElementById('player');
-        var source = document.getElementById('source');
-        source.setAttribute('src', './assets/videos/y2mate.com - Juice Wrld why_480p.mp4');
-        video.load();
-        video.play();
+            var video = document.getElementById('player');
+            var source = document.getElementById('source');
+            source.setAttribute('src', './assets/videos/y2mate.com - Juice Wrld why_480p.mp4');
+            video.load();
+            video.play();
         }
-        
     </script>
+
+    <script>
+        function myFunction1() {
+            var video = document.getElementById('player');
+            var source = document.getElementById('source');
+            source.setAttribute('src', './assets/videos/Juice WRLD Object Freestyle🕊🔥.mp4');
+            video.load();
+            video.play();
+        }
+    </script>
+
+    <script>
+        function myFunction2() {
+            var video = document.getElementById('player');
+            video.pause();
+        }
+    </script>
+
+    <script>
+        function myFunction3() {
+            var video = document.getElementById('player');
+            video.play();
+        }
+    </script>
+
 </body>
+
 </html>
