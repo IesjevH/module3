@@ -8,9 +8,28 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div id="tv">
-    <video src="./assets/videos/y2mate.com - Juice Wrld why_480p.mp4" controls width="200px">
+    <div class="tv">
+        <div id="beeld"></div>
+        <div id="video">
+            <video id="player" width="320" height="240" autoplay="autoplay">
+                <source id="source" src="./assets/videos/Juice WRLD Object Freestyle🕊🔥.mp4" type="video/mp4">
+            </video>
+        </div>
     </div>
 
+    <div id="knop">
+        <a id="knopje" onclick="myFunction()"></a>
+    </div>
+
+    <script>
+        function myFunction() {
+        var video = document.getElementById('player');
+        var source = document.getElementById('source');
+        source.setAttribute('src', './assets/videos/y2mate.com - Juice Wrld why_480p.mp4');
+        video.load();
+        video.play();
+        }
+        
+    </script>
 </body>
-</html> 
+</html>
