@@ -1,11 +1,11 @@
-* {
+body {
     background-color: grey;
 }
 
-#tv {
+.tv {
     border: 2px solid black;
     height: 350px;
-    width: 400px;
+    width: 450px;
     text-align: center;
     padding: 30px;
     background-color: black;
@@ -19,11 +19,18 @@
     background-color: rgb(26, 24, 119);
 }
 
+#video {
+    height: 300px;
+    width: 350px;
+    border: 2px solid white;
+    background-color: yellow;
+}
+
 #knopje {
     border: 3px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
+    margin-bottom: 5px;
     background-color: white;
     display: inline-block;
     text-align: center;
@@ -31,36 +38,29 @@
 
 #knopje1 {
     border: 3px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
     background-color: white;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: inline-block;
     text-align: center;
 }
 
 #knopje2 {
     border: 3px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
+    margin-bottom: 5px;
     background-color: white;
-    margin-left: 30px;
-    margin-bottom: 10px;
     display: inline-block;
     text-align: center;
 }
 
 #knopje3 {
     border: 3px solid white;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 20px;
     background-color: white;
-    margin-left: 30px;
-    margin-bottom: 0px;
     display: inline-block;
     text-align: center;
 }
